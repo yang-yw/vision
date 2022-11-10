@@ -1,0 +1,1 @@
+"avoid.c" OPTIMIZE (8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\avoid.lst) TABS (2) OBJECT(.\Objects\avoid.obj)
