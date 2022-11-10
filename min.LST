@@ -1,0 +1,42 @@
+A51 MACRO ASSEMBLER  MIN                                                                  03/22/2021 00:05:30 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02c
+OBJECT MODULE PLACED IN min.OBJ
+ASSEMBLER INVOKED BY: D:\keil5\C51\BIN\A51.EXE min.ASM SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0010                   1     ORG 0010H
+0010 758001            2     MOV P0,#01H
+  0080                 3     BIT1 BIT P0.0
+  00C8                 4     SHU1 DATA 200
+  00C8                 5     SHU2 DATA 200
+0013 79C8              6     LOOP1:MOV R1,#SHU1
+0015 7AC8              7     LOOP2:MOV R2,#SHU2
+0017 DAFE              8     LOOP3:DJNZ R2,LOOP3
+0019 D9FA              9           DJNZ R1,LOOP2
+001B B280             10               CPL BIT1
+001D 0113             11               AJMP LOOP1
+                      12     END
+A51 MACRO ASSEMBLER  MIN                                                                  03/22/2021 00:05:30 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+BIT1 . . . . . . .  B ADDR   0080H.0 A   
+LOOP1. . . . . . .  C ADDR   0013H   A   
+LOOP2. . . . . . .  C ADDR   0015H   A   
+LOOP3. . . . . . .  C ADDR   0017H   A   
+P0 . . . . . . . .  D ADDR   0080H   A   
+SHU1 . . . . . . .  D ADDR   00C8H   A   
+SHU2 . . . . . . .  D ADDR   00C8H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
