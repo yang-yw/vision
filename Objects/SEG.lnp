@@ -1,0 +1,3 @@
+".\Objects\SEGkeyboard.obj" 
+TO ".\Objects\SEG" 
+PRINT(".\Listings\SEG.m51") RAMSIZE(256) 

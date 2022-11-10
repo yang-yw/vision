@@ -1,0 +1,3 @@
+".\Objects\min1.obj" 
+TO ".\Objects\min" 
+PRINT(".\Listings\min.m51") RAMSIZE(256) 

@@ -1,0 +1,3 @@
+".\Objects\strings2.obj" 
+TO ".\Objects\STRINGS2" 
+PRINT(".\Listings\STRINGS2.m51") RAMSIZE(256) 

@@ -1,0 +1,6 @@
+".\Objects\car.obj",
+".\Objects\follow.obj",
+".\Objects\motor.obj",
+".\Objects\avoid.obj" 
+TO ".\Objects\car_bluetooth" 
+PRINT(".\Listings\car_bluetooth.m51") RAMSIZE(256) 

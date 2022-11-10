@@ -1,0 +1,3 @@
+".\Objects\cong.obj" 
+TO ".\Objects\chuan" 
+PRINT(".\Listings\chuan.m51") RAMSIZE(256) 

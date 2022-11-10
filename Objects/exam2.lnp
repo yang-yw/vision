@@ -1,0 +1,3 @@
+".\Objects\receive.obj" 
+TO ".\Objects\exam2" 
+PRINT(".\Listings\exam2.m51") RAMSIZE(256) 
